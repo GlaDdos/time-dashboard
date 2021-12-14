@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="dashboard">
+      <div class="dashboard-main">
+        <div class="dashboard-header">
+          <img class="avatar" src="./images/image-jeremy.png">
+          <div class="name">
+            <p class="name-description">Report for</p>
+            <p class="name-name">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="dashboard-nav">
+          <button >Daily</button>
+          <button class="active">Weekly</button>
+          <button>Monthly</button>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-orange">
+        <img class="dashboard-item-icon" src="./images/icon-work.svg">
+        <div class="dashboard-item-content" id="Work">
+          <p class="activity">Work</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">32hrs</p>
+          <p class="last-week">Last Week - 36hrs</p>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-blue">
+        <img class="dashboard-item-icon" src="./images/icon-play.svg">
+        <div class="dashboard-item-content" id="Play">
+          <p class="activity">Play</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">10hrs</p>
+          <p class="last-week">Last Week - 8hrs</p>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-red">
+        <img class="dashboard-item-icon" src="./images/icon-study.svg">
+        <div class="dashboard-item-content" id="Study">
+          <p class="activity">Study</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">4hrs</p>
+          <p class="last-week">Last Week - 7hrs</p>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-green">
+        <img class="dashboard-item-icon" src="./images/icon-exercise.svg">
+        <div class="dashboard-item-content" id="Exercise">
+          <p class="activity">Exercise</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">4hrs</p>
+          <p class="last-week">Last Week - 5hrs</p>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-violet">
+        <img class="dashboard-item-icon" src="./images/icon-social.svg">
+        <div class="dashboard-item-content" id="Social">
+          <p class="activity">Social</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">5hrs</p>
+          <p class="last-week">Last Week - 10hrs</p>
+        </div>
+      </div>
+      <div class="dashboard-item dashboard-yellow">
+        <img class="dashboard-item-icon" src="./images/icon-self-care.svg">
+        <div class="dashboard-item-content" id="Self Care">
+          <p class="activity">Self Care</p>
+          <button class="menu"><span class="dots"></span></button>
+          <p class="hours">2hrs</p>
+          <p class="last-week">Last Week - 2hrs</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="./data.json"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
